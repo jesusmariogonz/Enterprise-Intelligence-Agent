@@ -1,13 +1,14 @@
 # data/documents/
 
-Esta carpeta debe contener 7 documentos Markdown sintéticos con políticas internas de "EIA Corp", usados como corpus para los ejemplos de RAG:
+Corpus de 7 documentos Markdown sintéticos con políticas internas de la
+empresa ficticia **"EIA Corp"**, usados como fuente para los ejemplos de
+RAG del libro. Todo el contenido es ficticio y fue escrito específicamente
+para este proyecto.
 
-1. Política de reembolsos
-2. Onboarding
-3. Política de vacaciones
-4. Compras a proveedores
-5. Código de conducta
-6. Seguridad de la información
-7. Trabajo remoto
-
-**Estado actual:** estos documentos NO están presentes en el repositorio todavía. Deben agregarse antes de que el código de RAG (a partir del capítulo correspondiente) pueda ejecutarse.
+- `politica_reembolsos.md` — Política de Reembolsos de Gastos de Viaje
+- `manual_onboarding.md` — Manual de Onboarding para Nuevos Colaboradores
+- `politica_vacaciones.md` — Política de Vacaciones
+- `politica_compras_proveedores.md` — Política de Compras y Contratación de Proveedores
+- `codigo_conducta.md` — Código de Conducta
+- `politica_seguridad_informacion.md` — Política de Seguridad de la Información
+- `politica_trabajo_remoto.md` — Política de Trabajo Remoto
