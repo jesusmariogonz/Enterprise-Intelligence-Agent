@@ -1,0 +1,9 @@
+# Dependencias base del proyecto Enterprise Intelligence Agent (EIA).
+# Se irán agregando dependencias específicas por capítulo a medida que
+# avance el libro (por ejemplo: framework de RAG en el Capítulo 5,
+# FastAPI en el Capítulo 18, etc.).
+
+anthropic
+pandas
+python-dotenv
+pydantic

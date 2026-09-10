@@ -1,0 +1,45 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Bytecode y cachés de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Variables de entorno / secretos
+.env
+.env.*
+!.env.example
+
+# Distribución / empaquetado
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Herramientas de testing y linting
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editores / SO
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# NOTA: data/ NO se ignora en este proyecto — los datos (Northwind DB y
+# documentos de políticas) se versionan intencionalmente como parte del
+# repositorio complementario del libro.
