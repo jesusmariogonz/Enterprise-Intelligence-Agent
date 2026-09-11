@@ -1,9 +1,14 @@
-# Dependencias base del proyecto Enterprise Intelligence Agent (EIA).
-# Se irán agregando dependencias específicas por capítulo a medida que
-# avance el libro (por ejemplo: framework de RAG en el Capítulo 5,
-# FastAPI en el Capítulo 18, etc.).
+# AI Solution Architect — dependencias del proyecto transversal (EIA)
+# Se amplía capítulo a capítulo; ver comentarios de origen.
 
-anthropic
-pandas
-python-dotenv
-pydantic
+# LLM / SDKs (Capítulo 3)
+anthropic>=0.40.0
+python-dotenv>=1.0.0
+pydantic>=2.6.0
+
+# RAG: embeddings y vector store (Capítulo 5)
+voyageai>=0.3.0
+chromadb>=0.5.0
+
+# Datos estructurados
+pandas>=2.2.0

@@ -1,3 +1,4 @@
-# Código del Capítulo 03
+# Código del Capítulo 3
 
-Se completará a medida que avance el libro "AI Solution Architect: De LLMs y RAG a Agentes, Orquestación y Sistemas Inteligentes Empresariales".
+- `llm_client.py` — función base `ask_llm()` para enviar un prompt al modelo y recibir texto, controlando la temperatura (Listado 3.2).
+- `structured_output.py` — `clasificar_consulta()`, obtiene del modelo una salida estructurada y validada con Pydantic en lugar de texto libre (Listado 3.3).
